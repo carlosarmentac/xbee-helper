@@ -13,7 +13,8 @@ RX_TIMEOUT = timedelta(seconds=10)
 DIGITAL_PINS = (
     "dio-0", "dio-1", "dio-2",
     "dio-3", "dio-4", "dio-5",
-    "dio-10", "dio-11", "dio-12"
+    "dio-10", "dio-11", "dio-12",
+    "dio-6"
 )
 ANALOG_PINS = (
     "adc-0", "adc-1", "adc-2", "adc-3"
@@ -21,7 +22,8 @@ ANALOG_PINS = (
 IO_PIN_COMMANDS = (
     b"D0", b"D1", b"D2",
     b"D3", b"D4", b"D5",
-    b"P0", b"P1", b"P2"
+    b"P0", b"P1", b"P2",
+    b"D7"
 )
 ADC_MAX_VAL = 1023
 ADC_RAW = 0
