@@ -9,19 +9,23 @@ from datetime import timedelta
 RX_TIMEOUT = timedelta(seconds=10)
 
 # @TODO: Split these out to a separate module containing the
-#        specifics for each type of XBee module. (This is Series 2 non-pro)
+#        specifics for each type of XBee module. (This is Series 2 PRO)
 DIGITAL_PINS = (
     "dio-0", "dio-1", "dio-2",
     "dio-3", "dio-4", "dio-5",
-    "dio-10", "dio-11", "dio-12"
+    "dio-6", "dio-7", "dio-8",
+    "dio-9", "dio-10", "dio-11", 
+    "dio-12"
 )
 ANALOG_PINS = (
-    "adc-0", "adc-1", "adc-2", "adc-3"
+    "adc-0", "adc-1", "adc-2", "adc-3", "adc-4", "adc-5", "adc-6"
 )
 IO_PIN_COMMANDS = (
     b"D0", b"D1", b"D2",
     b"D3", b"D4", b"D5",
-    b"P0", b"P1", b"P2"
+    b"D6", b"D7", b"D8",
+    b"D9", b"P0", b"P1", 
+    b"P2"
 )
 ADC_MAX_VAL = 1023
 ADC_RAW = 0
